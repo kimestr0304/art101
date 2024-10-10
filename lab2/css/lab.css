@@ -4,8 +4,8 @@
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #DDD8C4;
+  border: solid 1px lavenderblush;
+  background-color: lavenderblush;
 }
 body.page-two{
   background-color: palevioletred;
@@ -64,5 +64,5 @@ div#img-text{
   color: darkslateblue;
 }
 body.page-one{
-  background-color: darkgreen;
+  background-color: palevioletred;
 }
