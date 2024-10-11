@@ -66,3 +66,9 @@ div#img-text{
 body.page-one{
   background-color: palevioletred;
 }
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 20px;
+}
