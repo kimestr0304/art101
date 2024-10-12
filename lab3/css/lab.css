@@ -4,6 +4,23 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: dashed 3px black;
+    background-color: lavenderblush;
+  }
+  body{
+    background-color: palevioletred;
+  }
+  title{
+    text-decoration: underline;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h1{
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+  }
+  div#filestructure{
+    align-items: center;
   }
