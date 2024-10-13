@@ -74,3 +74,6 @@ h1{
     color: black;
     font-weight: bold;
     }
+  div#recent-picture{
+    border-radius: 30px;
+  }
