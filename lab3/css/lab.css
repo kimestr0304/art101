@@ -22,5 +22,10 @@
     color: black;
   }
   div#filestructure{
-    align-items: center;
+    place-self: left;
+    border-radius: 5px;
   }
+ div#codestructure{
+  place-content: right;
+  border-radius: 5px;
+ }
