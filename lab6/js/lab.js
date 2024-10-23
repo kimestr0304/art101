@@ -1,21 +1,24 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/*
+ * Author: Kimberly Estrada & Trevor Chee <kestrad9@ucsc.edu> <tlchee@ucsc.edu>
+ * Date: 10-22-2024
+ * Description: This script is an implementation of the game, Hang Man. 
+ */
 
-// Constants
+myTransport = ["Ford Focus", "public bus"];
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+myMainRide = {
+  make: "Ford",
+  model: "Focus",
+  color: "blue",
+  year: 2016,
+  age: function () {
+    return 2024 - this.year;
+  }
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+document.writeln("My two forms of transport: ", myTransport, "</br>");
 
-// let's get this party started
-main();
+document.writeln("My Main Ride: <pre>",
+  JSON.stringify(myMainRide, null, '\t'), 
+  "</pre>"
+);
