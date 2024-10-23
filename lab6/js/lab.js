@@ -1,7 +1,7 @@
 /*
  * Author: Kimberly Estrada & Trevor Chee <kestrad9@ucsc.edu> <tlchee@ucsc.edu>
  * Date: 10-22-2024
- * Description: This script is an implementation of the game, Hang Man. 
+ * Description: This script is an implementation of the types of transportation I use to get around campus. 
  */
 
 myTransport = ["Ford Focus", "public bus"];
