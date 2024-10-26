@@ -23,5 +23,6 @@ function sortUserName() {
 }
 
 // Output
-document.getElementById("output").innerHTML = "See, something exciting did occur: " + result + "<br>";
-console.log("JavaScript file loaded successfully!");
+document.writeln("See something amazing did happen: ",
+    sortUserName(), "</br>"
+);
