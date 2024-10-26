@@ -4,6 +4,8 @@
  * Description: This script is an implementation of the types of transportation I use to get around campus. 
  */
 
+console.log("js/lab.js")
+
 myTransport = ["Ford Focus", "public bus"];
 
 myMainRide = {
@@ -22,3 +24,4 @@ document.writeln("My Main Ride: <pre>",
   JSON.stringify(myMainRide, null, '\t'), 
   "</pre>"
 );
+
