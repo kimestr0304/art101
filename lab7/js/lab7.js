@@ -19,10 +19,12 @@ function sortUserName() {
     //join array back to a string
     var nameSorted = nameArraySort.join('');
     console.log("nameSorted =", nameSorted);
+
     return nameSorted;
 }
 
+// Call the function
+var sortedName = sortUserName();
+
 // Output
-document.writeln("See something amazing did happen: ",
-    sortUserName(), "</br>"
-);
+document.writeln("See something amazing did happen: ", sortedName , "</br>");
