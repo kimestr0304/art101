@@ -41,4 +41,14 @@ h1{
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg);}
-  }
+}
+
+p{
+  font-size: 20px;
+}
+
+h2{
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: bold;
+}
