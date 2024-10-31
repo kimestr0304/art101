@@ -2,6 +2,7 @@
  * Author: Kimberly Estrada & Trevor Chee <kestrad9@ucsc.edu> <tlchee@ucsc.edu>
  * Date: 10-31-2024
  * Description: This script is an implementation of how to create and use anon functions and callbacks.
+ * Credits to WesBot for helping and guiding me on this code.
 */
 
 // Functions
