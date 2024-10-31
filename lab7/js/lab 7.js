@@ -3,9 +3,7 @@
  * Date: 10-28-2024
  * Description: This script is an implementation of how to create a function in JavaScript.
  * Credits to Chat GPT for the references and help on this assignment.
- */
-
-
+*/
 
 // Function to sort, omit spaces, and handle case sensitivity
 function sortUserName(userName) {
