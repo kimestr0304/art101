@@ -5,43 +5,25 @@
  * 
 */
 
+// add button to the challenge section
 
-$(document).ready(function(){
-    // add button to challenge section
-
-    $("#challenge").append("<button id='button-challenge'>Make Special</button>");
-    $("#button-challenge").click(function(){
-    // add or subtract the "special" class to the section
+$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+// add click listener to the section
+$("#button-challenge").click(function(){
     $("#challenge").toggleClass("special");
-    });
+});
 
-    // add button to problem section
-    $("#problems").append("<button id='button-problem'>Make Special</button>");
-    $("#button-problem").click(function(){
-    // add or subtract the "special" class to the section
+$("#problems").append("<button id='button-problems'>Make Special</button>");
+$("#button-problems").click(function(){
     $("#problems").toggleClass("special");
-    });
+});
 
-    // add button to reflection section
-    $("#reflection").append("<button id='button-reflection'>Make Special</button>");
-    $("#button-reflection").click(function(){
-    // add or subtract the "special" class to the section
+$("#reflection").append("<button id='button-reflection'>Make Special</button>");
+$("#button-reflection").click(function(){
     $("#reflection").toggleClass("special");
-    });
+});
 
-    // add button to results section
-    $("#results").append("<button id='button-results'>Make Special</button>");
-    $("#button-results").click(function(){
-    // add or subtract the "special" class to the section
+$("#results").append("<button id='button-results'>Make Special</button>");
+$("#button-results").click(function(){
     $("#results").toggleClass("special");
-    });
-
-    $(".special-selection").append(
-    "<button class='special-button'>Make Special</button>"
-    );
-
-    $(".special-button").click(function(){
-        $(this).parent().toggleClass("special");
-    });
-
 });
