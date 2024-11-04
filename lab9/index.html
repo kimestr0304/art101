@@ -2,10 +2,10 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 8 - Anon Functions and Callbacks</title>
+	<title>Lab 9 - Libraries and jQuery</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
-  	<meta charset="UTF-8" />
+	<meta charset="UTF-8" />
 	<!-- Set viewport so page remains consistently scaled w narrow devices -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
@@ -19,8 +19,6 @@
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	
 </head>
 
 <body class="page-one">
@@ -28,36 +26,37 @@
 	<main id="content">
 
 		<section>
-			<h1>Lab 8 - Anon Functions and Callbacks</h1>
-			<div class="minor-section">
+			<h1>Lab 9 - Libraries and jQuery</h1>
+			<div class="minor-section" id="challenge">
 					<h2>Challenge</h2>
 					<p>Restate the challenge of the lab here.</p>
-					<p2>Work together with partner and experiment with anonymous functions and callbacks.</p2>
+					<p2>Work together with partner and experiment with jQuery.</p2>
 						
 			</div>
 
-			<div class="minor-section">
+			<div class="minor-section" id="problems">
 					<h2>Problems</h2>
 					<p>What problems arose? How did you solve them?</p>
-					<p2>I was having a hard time printing the results of my JavaScript on my 
-						HTML, but I used WesBot for help and I managed to fix and run my code.
+					<p2>
+						Some problems that I had was that the buttons would not show up in the sections,
+						but I realized that the HTML did not have an id to distinguish where the buttons should be placed, so I fixed it
+						with the help of WesBot.
 					</p2>
 						
 			</div>
 
-			<div class="minor-section">
+			<div class="minor-section" id="reflection">
 					<h2>Reflection</h2>
 					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment?</p> 
-					<p2>I felt like this assignment was a little challenging because I still wasn't sure
-						how to form an array correctly, but I managed to learn how because of Wesbot and the instructions on the lab.
+					<p2>
 					</p2>
 						
 			</div>
 
-			<div class="minor-section">
+			<div class="minor-section" id="results">
 					<h2>Results</h2>
-					<p2>The output will appear here!</p2>
-					<div id="output"></div>					
+					<div id="output"></div>
+					<script src="./js/lab.js"></script>		
 			</div>
 		
 		</section2>
