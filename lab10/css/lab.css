@@ -35,17 +35,6 @@ h1{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg);}
   }
-.text p{
-    display:inline-block;
-    max-width: 60%;
-    margin: 3px;
-    padding: 5px 10px;
-    border-radius: 15px;
-    background-color: plum;
-    color: black;
-    font-family: cursive;
-    font-size: 0.8em;
-}
 
 #links{
     display: flex;
@@ -56,8 +45,24 @@ h1{
 
 .text:nth-child(odd){
     text-align: left;
+    background-color: lightgray;
+    max-width: 50%;
+    margin: 3px auto 3px 10px;
+    padding: 10px;
+    border-radius: 3px;
+    color: black;
+    font-family: cursive;
+    font-size: 0.5em !important;
 }
 
 .text:nth-child(even){
     text-align: right;
+    background-color: lightskyblue;
+    max-width: 50%;
+    margin: auto .5% .2% auto;
+    padding: 10px;
+    border-radius: 4em;
+    color: black;
+    font-family: cursive;
+    font-size: 0.5em !important;
 }

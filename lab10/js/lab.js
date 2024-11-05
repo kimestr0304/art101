@@ -37,3 +37,9 @@ $("#make-convo").click(function(){
     // Use userInput as one side of conversation (odd messages)
     
 });
+
+$("#make-convo").click(function(){
+    // Add a white background to the body
+    $("#output").css("background-color", "white");
+    $("#output").css("border-color", "black");
+});
