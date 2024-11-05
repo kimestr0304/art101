@@ -43,7 +43,19 @@ h1{
     font-weight: bold;
 }
 
-.text p{
+.text p {
+    display: inline-block;
+    max-width: 50%;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    font-family: cursive;
+    font-size: 0.8em;
+    background-color:darkgrey;
+}
+
+.text:nth-child(odd) p {
     display: inline-block;
     max-width: 50%;
     margin: 3px;
@@ -52,13 +64,14 @@ h1{
     color: black;
     font-family: cursive;
     font-size: 0.8em;
-    background-color: plum;
+    background-color:lightgray;
 }
 
-.text:nth-child(odd){
-    text-align: left;
+.text:nth-child(even) p {
+    background-color: #1a98e0;
+    color: white;
 }
 
-.text:nth-child(even){
+.text:nth-child(even) {
     text-align: right;
 }
