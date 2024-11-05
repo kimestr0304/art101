@@ -43,26 +43,22 @@ h1{
     font-weight: bold;
 }
 
-.text:nth-child(odd){
-    text-align: left;
-    background-color: lightgray;
+.text p{
+    display: inline-block;
     max-width: 50%;
-    margin: 3px auto 3px 10px;
-    padding: 10px;
-    border-radius: 3px;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
     color: black;
     font-family: cursive;
-    font-size: 0.5em !important;
+    font-size: 0.8em;
+    background-color: plum;
+}
+
+.text:nth-child(odd){
+    text-align: left;
 }
 
 .text:nth-child(even){
     text-align: right;
-    background-color: lightskyblue;
-    max-width: 50%;
-    margin: auto .5% .2% auto;
-    padding: 10px;
-    border-radius: 4em;
-    color: black;
-    font-family: cursive;
-    font-size: 0.5em !important;
 }

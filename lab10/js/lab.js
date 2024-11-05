@@ -41,5 +41,4 @@ $("#make-convo").click(function(){
 $("#make-convo").click(function(){
     // Add a white background to the body
     $("#output").css("background-color", "white");
-    $("#output").css("border-color", "black");
 });
