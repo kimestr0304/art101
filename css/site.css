@@ -71,3 +71,10 @@ h1{
   div#recent-picture{
     border-radius: 30px;
   }
+
+  .party .minor-section{
+    background-color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: purple;
+  }

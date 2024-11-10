@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 11 - JavaScript Events and Forms</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+	<button onclick="startGlitch()">Start Glitch</button>
+	<p3>Click the button, something weird will happen</p3>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 11 - JavaScript Events and Forms</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>Restate the challenge of the lab here.</p>
+					<p2>Work with a partner and experiment with JS events and make sure that jQuery works.</p2>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>What problems arose? How did you solve them? </p>
+					<p2>There wasn't any problems I ran into while doing this assignment. Everything was similar to the last lab we did
+						so I had an easier time with this assignment.
+					</p2>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p2>I felt like this assignment was very straightforward with the instructions, which made it really easy to follow along.
+						I didn't put a lot of effort into this assignment like the previous one, but it was still fun to work on.
+					</p2>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<p>What was the outcome of the lab?</p>
+					<p2>I like how I was able to get the code to work at the end. Anyone can 
+						type their name and get it sorted and also see an anagram of their name too.
+						Try it out!
+					</p2>
+					<div id="output"></div>
+					<input type="text" id="user-name" placeholder="Input your name">
+					<button id="submit">Submit</button>
+			</div>
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+			 <a href="../index.html"> Back to Homepage </a>
+			 <a href="./js/lab.js"> JavaScript Source</a>
+		</nav>
+	</main>
+</body>
+</html>

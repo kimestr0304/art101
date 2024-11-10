@@ -1,21 +1,19 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Experiment with javascript and play around with my homepage.
+// Author: Kimberly Estrada
+// Date: 11-6-24
 
-// Constants
+// make a button
 
-// Functions
+$("h2").click(
+  
+  function(){
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+    $("body").toggleClass("party")
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+  }
+);
 
-// let's get this party started
-main();
+
+// add a listener
+
+// party mode
