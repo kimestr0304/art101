@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 12 - Conditionals</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 12 - Conditionals</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>Restate the challenge of the lab here.</p>
+					<p2>Work with a partner and create a function that depends on conditionals.</p2>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>What problems arose? How did you solve them? </p>
+					<p2>The problems that I faced throughout the lab was that my array won't show up when I clicked the "Sort Me!" button. I 
+						was trying to figure out what was going wrong, but when I used WesBot and Chat GPT, I learned that my functions were not properly
+						linked to my button. So, I ended up fixing it and testing it and it finally worked. I liked how WesBot was very specific with how 
+						my code was incorrect and it even provided me with a working and revised code, which I was thankful for. 
+					</p2>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p2>I felt like this assignment was very straightforward, but there were some problems that I ran into. I still had fun with this lab, espcially
+						when writting the traits of the Hogwarts' Houses.
+					</p2>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<p>Prepare To Receive Your Personality Trait! You Will Receive a Combination of Two Hogwarts' Houses! What Fun!</p>
+					<p2>Please enter your FULL name!</p2>
+					<input type="text" id="input" />
+					<button id="button">Sort Me!</button>
+					<div id="output"></div>  <!-- Display the sorting result -->
+			</div>
+			<div class="minor-section">
+				<h2>House Information</h2>
+				<div class="my-container" style="position: relative; display: inline-block;">
+					<img id="sorting-hat" src="./img/sortinghat.png" width="375px">
+					<span style="
+					  position: absolute;
+					  top: -20px; /* Adjust as needed */
+					  left: 330px; /* Adjust as needed */
+					  background-color: lightgray;
+					  border-radius: 0;
+					  border-color: black;
+					  border-style: dotted;
+					  padding: 5px;
+					  box-shadow: 0;
+					  font-size: 15px;
+					  font-family: cursive;
+					  width: 400px;">
+						Here are the descriptions of the four houses at Hogwarts and I decide who is placed in what house. Click the houses to learn more about the 
+						type of people, who I decided what house they belong in. Which house would you want to be placed in?
+						<div class="credits" style="font-weight: bold;">
+							Hogwarts house descriptions, thanks to 
+							<a href="https://www.harrypotter.com/features/hogwarts-house-meanings">The Wizarding World Team</a>
+						</div>
+						     <!-- Speech bubble arrow -->
+							 <span style="
+							 position:absolute; 
+							 bottom:-25px; 
+							 right: 28em;
+							 width : 1em ;  
+							 height : .7em ;
+							 background-color : inherit ;
+							 border-color: black;
+							 border-style: dotted;
+							 transform : rotate(-45deg);"></span>
+					</span>
+				</div>
+				<div id="outputs"></div>  <!-- This is where house info will be displayed -->
+				<div id="button-container"></div>  <!-- For dynamically created house buttons --> 
+			</div>
+		</section>
+		<nav id="links">
+			<div style="justify-content: space-between; padding: 0 100px; display: flex;">
+				<a href="../index.html">Back to Homepage</a>
+				<a href="./js/lab.js">JavaScript Source</a>
+			</div>
+		</nav>
+	</main>
+</body>
+</html>
