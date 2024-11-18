@@ -17,7 +17,8 @@ body {
   }
   
   p{
-    font-size: 20px;
+    font-style: italic;
+    font-size: 18px;
   }
 
 
@@ -56,6 +57,28 @@ body {
     100% { transform: translate(1px, -2px) rotate(-1deg);}
     }
 
-p2{
-  font-size: 20px;
+#output{
+  max-width: 50%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: black;
+  font-family: cursive;
+  font-size: 15px;
+  background-color: pink;
+  text-align: center;
+}
+
+#links{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+p3{
+  font-size: 12px;
+  font-family: initial;
+  font-weight: bold;
+  text-decoration: underline;
 }
