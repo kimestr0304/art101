@@ -52,3 +52,10 @@ h2{
   font-size: 25px;
   font-weight: bold;
 }
+
+#links{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  font-weight: bold;
+}

@@ -19,3 +19,9 @@ p{
   font-style: italic;
   font-weight: bold;
 }
+#links{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  font-weight: bold;
+}

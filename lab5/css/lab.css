@@ -14,3 +14,9 @@ h3{
   font-size: 18px;
   font-style: normal;
 }
+#links{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  font-weight: bold;
+}
