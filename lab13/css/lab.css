@@ -58,27 +58,32 @@ body {
     }
 
 #output{
-  max-width: 50%;
+  max-width: 100%;
   margin: 3px;
-  padding: 5px 10px;
-  border-radius: 15px;
+  padding: 5px;
+  border-radius: 10px;
   color: black;
-  font-family: cursive;
-  font-size: 15px;
-  background-color: pink;
+  background-color: lavender;
   text-align: center;
+  border-color: black;
+  border-style: dashed;
 }
 
 #links{
-  display: flex;
-  justify-content: space-between;
-  padding: 0 100px;
-  font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    font-weight: bold;
 }
 
-p3{
-  font-size: 12px;
-  font-family: initial;
-  font-weight: bold;
-  text-decoration: underline;
+.cols p{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 300px;
+}
+.column{
+    column-width: 200px;
+    font-size: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

@@ -10,10 +10,12 @@
 
 // Loop from numbers 1 to 200, make sure to list them as "Fizz", "Buzz", "Boom"
 
-// Thanks to Professor Modes' JS code for the help
+// Thanks to Professor Modes' JS code and WesBot for the help
 
 
-maxFactors = 4;
+var maxFactors = 4;
+
+var factorObj = {};
 
 outputEl = document.getElementById("output");
 
@@ -23,6 +25,8 @@ $(document).ready(function() {
         for (var factor=0; factor<maxFactors; factor++) {
         numId = "num" + factor;
         textId = "text" + factor;
+        let numValue = $("#" + numId).val();
+        let textValue = $("#" + textId).val();
         numValue = document.getElementById(numId).value;
         textValue = document.getElementById(textId).value;
         console.log(factor + ") num:", numValue, "text:", textValue)
@@ -46,7 +50,6 @@ $(document).ready(function() {
     function fizzBuzzBoom(maxNums, factorObj) {
         // iterate over all of out numbers
         for (var num=0; num<maxNums; num++) {
-            debugger;
             // reset output string
             var outputStr = "";
             // iterate over the factors we got from the html
@@ -83,7 +86,7 @@ $(document).ready(function() {
             return;
         }
         // clear error if there is one
-        outputEl.innerHTML = "";
+        outputEl = document.getElementById("output");
         fizzBuzzBoom(max, factorObj);
         outputEl.classList.add("cols");
     });
