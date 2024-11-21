@@ -1,0 +1,100 @@
+body {
+    background-color: palevioletred;
+  }
+  
+  /* we can have rules apply to multiple elements at the same time with commas */
+  h1,h2,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  /* and we can have rules that overlap other rules, both take effect */
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+  
+  /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+  #content {
+    margin: 5px;
+    padding: 10px;
+    background-color: pink;
+  }
+  
+  /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px black;
+    background-color: lavenderblush;
+  }
+  div#figcaption{
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+  }
+  h1{
+    animation: shake 30s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    text-decoration: underline;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg);}
+    }
+    div#figcaption{
+      text-align: center;
+      text-decoration: underline;
+      font-size: 15px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: black;
+      font-weight: bold;
+      }
+    div#recent-picture{
+      border-radius: 10px;
+      justify-content: space-between;
+      border-width: 3px;
+      color: black;
+      border-style: solid;
+      background-color: lavenderblush;
+      padding: 10px;
+    }
+  
+    .party .minor-section{
+      background-color: powderblue;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: oblique;
+      color: red;
+      border-style: dashed;
+      border-color: black;
+    }
+  .drawings{
+    justify-content: space-evenly;
+  }
+  .lab-links{
+    column-width: 200px;
+      font-size: 18px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: oblique;
+  }
+  p2{
+    font-size: 18px;
+    font-style: normal;
+  }
+  p{
+    font-size: 20px;
+    font-style: italic;
+  }
