@@ -34,3 +34,30 @@ h1{
     box-shadow: darkgray;
     font-style: italic;
 }
+
+#question1{
+    font-size: 35px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+
+/* Container to hold the answer divs */
+.answers {
+    display: grid; /* Enables Grid Layout */
+    grid-template-columns: repeat(2, 1fr); /* Create 4 equal-width columns */
+    gap: 20px; /* Space between columns */
+}
+  
+/* Styling for each individual answer block */
+.answer {
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* Optional: Add some space between the answer divs */
+  .answer p {
+    margin-bottom: 10px;
+}
