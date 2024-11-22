@@ -28,16 +28,14 @@ h1{
 }
 
 .character-img{
-    align-items: center;
-    border-color: black 3px;
-    border-style: solid;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60vh;
-    margin: 0;
+    display: flex; /* Flexbox to arrange images side by side */
+    justify-content: center; /* Align images horizontally */
+    border: 5px solid black; /* Add border around the container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 10px; /* Optional: rounded corners */
+    background-color: white; /* Optional: background color */
 }
+
 .selected {
     border-color: lemonchiffon;         /* Change border color when selected */
     transform: scale(1.1);        /* Slightly enlarge the selected image */
@@ -51,7 +49,7 @@ h1{
     display: block;
     margin: 0 auto;
     left: 40%;
-    top: 100%;
+    top: 95%;
     width: 300px;
     height: 50px;
     background-color: silver;
@@ -64,4 +62,16 @@ h1{
     font-size: 35px;
     color: white;
     text-align: center;
+}
+#home{
+    position: fixed;
+    width: 15%;
+    color: black;
+    background-color: lightgrey;
+    font-size: 18px;
+    font-style: normal;
+    padding: 10px, 20px;
+    border-radius: 5px;
+    left: 10px;
+    bottom: 10px;
 }
