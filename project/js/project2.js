@@ -1,4 +1,14 @@
 
+/*
+ * Author: Kimberly Estrada <kestrad9@ucsc.edu>
+ * Date: 11-21-2024
+ * Description: This script is an implementation of what I have learned so far in this class.
+ * Credits to WesBot and Chat GPT for helping and guiding me.
+ * 
+*/
+
+// Create a function on how the user can select their character
+
 // Function to handle the image selection
 function selectCharacter(event) {
 	const imageElement = event.target; // The clicked image
