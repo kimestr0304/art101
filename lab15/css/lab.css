@@ -1,0 +1,161 @@
+body {
+    background-color: palevioletred;
+  }
+  
+  /* we can have rules apply to multiple elements at the same time with commas */
+  h1,h2,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  /* and we can have rules that overlap other rules, both take effect */
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+  
+  
+  /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px black;
+    background-color: lavenderblush;
+  }
+
+  h1{
+    animation: shake 30s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    text-decoration: underline;
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg);}
+    }
+
+  #links{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+
+  p{
+    font-size: 18px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  p2{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+
+  #fetchButton{
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+/* Basic styling for the page */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;  /* Ensure no default margin on body */
+  background-color: #f0f0f0;  /* Set background color for the page */
+}
+
+/* Styling for the minor section */
+.pokedex-section {
+  position: relative;
+  width: 80%;  /* Set to a smaller width to prevent it from stretching too wide */
+  max-width: 800px;  /* Optional: limit the max width of the minor section */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: white;  /* Optional: add a background to the section */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Add subtle shadow for style */
+}
+
+/* Ensure the Pokedex container is styled */
+#pokedex {
+  position: relative;
+  width: 100%;
+  max-width: 350px;  /* Adjust the width as needed */
+  height: auto;
+  background-color: lightcoral;
+  background-image: url('./img/pokedex.jpg');  /* Path to your Pokedex frame image */
+  background-size: contain;  /* Ensures the image fits within the container */
+  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  background-position: center center;  /* Centers the image */
+  border: 5px solid #333;  /* Adds an additional border around the frame */
+  border-radius: 20px;  /* Optional: rounded corners for the border */
+  margin: 0 auto;
+  padding: 20px;
+  display: none;  /* Hidden initially */
+  text-align: left;
+}
+
+
+/* Pokedex image background */
+#pokedexImage {
+  width: 100%;  /* Ensure the image fills the Pokedex width */
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Content inside the Pokedex */
+#pokedexContent {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 8px;
+  overflow-y: auto;  /* Allow scrolling for long text */
+}
+
+/* Styling for list items in the Pokedex content */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Styling for the input and button */
+input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
