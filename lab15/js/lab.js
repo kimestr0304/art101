@@ -2,7 +2,7 @@
  * Author: Kimberly Estrada & Trevor Chee <kestrad9@ucsc.edu> <tlchee@ucsc.edu>
  * Date: 11-25-2024
  * Description: This script is an implementation of experimenting with jQuery and AJAX.
- * Credits to WesBot and Professor Modes' javascript file for helping and guiding me on this assignment.
+ * Credits to Chat GPT for helping and guiding me on this assignment.
  * 
 */
 
