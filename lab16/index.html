@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 16 - JSON & APIs</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="./css/lab.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="./css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 16 - JSON & APIs</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>Restate the challenge of the lab here.</p>
+                    <p2>Work with a partner and experiment with processing JSON from an API.</p2>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>What problems arose? How did you solve them? </p>
+                    <p2>I had problems coming up with the js code, I wasn't sure where to start, but thanks to WesBot and 
+                        Chat GPT, I was able to get a head start. I also had trouble accessing the XKCP JSON link, it would say that I had to accessing it, but 
+                        I realized that I had to get permission first from the orginal source, in order for the comics to load on my web page.
+                    </p2>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+                    <p2>This assignment was a little hard to work with than the rest of the other labs, but I was able to seek help from WesBot and Chat GPT with my js 
+                        so everything worked fine in the end. I put in a decent amount of energy in this assignment as I was looking for examples and ways to access the XKCP JSON code. 
+                    </p2>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+                    <p2>This is the result of the XKCP JSON code and the comics that follow. Hope you enjoy! Credits to <a href="https://xkcd.com/614/info.0.json "> XKCD JSON Code & Link </a>for the access to the comics and code! </p2>
+					<div id="output">
+                        <div id="comic-container">
+                        <h1 id="comic-title">Loading comic...</h1>
+                        <img id="comic-image" src="" alt="XKCD comic" />
+                        <p id="comic-alt"></p>
+                
+                     <div class="buttons">
+                        <button id="prev-btn">Previous</button>
+                        <button id="next-btn">Next</button>
+                </div>
+
+            </div>
+        
+
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+             <a href="../index.html">&lt;&lt;Back to Homepage</a>
+             <a href="./js/lab.js">&gt;&gt;JavaScript Source</a>
+		</nav>
+	</main>
+</body>
+</html>
